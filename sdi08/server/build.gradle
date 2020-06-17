@@ -1,0 +1,12 @@
+ext {
+    postgresVersion = '42.2.11'
+    dbcpVersion = '2.7.0'
+    springJdbcVersion = '5.2.5.RELEASE'
+}
+
+dependencies {
+    compile project(':common')
+    compile group: 'org.springframework', name: 'spring-jdbc', version: "$springJdbcVersion"
+    compile group: 'org.apache.commons', name: 'commons-dbcp2', version: "$dbcpVersion"
+    compile group: 'org.postgresql', name: 'postgresql', version: "$postgresVersion"
+}
