@@ -1,0 +1,4 @@
+dependencies {
+    compile project(':common')
+    compile group: 'org.postgresql', name: 'postgresql', version: '42.2.11'
+}

@@ -1,0 +1,5 @@
+rootProject.name = 'sdi05'
+include 'common'
+include 'server'
+include 'client'
+
