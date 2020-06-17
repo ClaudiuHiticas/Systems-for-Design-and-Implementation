@@ -1,0 +1,7 @@
+rootProject.name = 'Vote'
+include 'scanner'
+include 'common'
+include 'county'
+include 'monitor-core'
+include 'monitor-web'
+
